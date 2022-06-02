@@ -11,7 +11,7 @@ import RequireAuth from "./features/auth/RequireAuth";
 
 // Libraries
 import { Provider } from "react-redux";
-
+ 
 function MyApp({ Component, pageProps }) {
   return (
     <>
