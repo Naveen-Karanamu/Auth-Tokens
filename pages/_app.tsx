@@ -1,7 +1,7 @@
 import "../styles/globals.css";
 import { store } from "./app/api/store";
 
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route } from "../node_modules/react-router-dom/index";
 import Layout from "../components/Layout";
 import Public from "../components/Public";
 import Login from "./features/auth/Login";
@@ -10,7 +10,7 @@ import RequireAuth from "./features/auth/RequireAuth";
 // import UsersList from "../pages/features/";
 
 // Libraries
-import { Provider } from "react-redux";
+import { Provider } from "../node_modules/react-redux/es/index";
  
 function MyApp({ Component, pageProps }) {
   return (

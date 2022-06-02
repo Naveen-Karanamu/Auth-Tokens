@@ -1,8 +1,5 @@
-import Head from 'next/head'
-import Image from 'next/image'
-
 // Libraries
-import { Provider } from 'react-redux'
+import { Provider } from '../node_modules/react-redux/es/index'
 
 
 // Components
