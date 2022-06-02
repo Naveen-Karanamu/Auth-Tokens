@@ -30,3 +30,8 @@ const baseQureryWithReauth=async(args,api,extraOptions)=>{
         }
     }
 }
+
+export const apiSlice =createApi({
+    baseQuery:baseQureryWithReauth,
+    endpoints:builder=>({})
+})
